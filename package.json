@@ -1,0 +1,35 @@
+{
+  "name": "make-cli",
+  "version": "1.0.0",
+  "description": "CLI for installation and configuration of development environment based on Craft CMS and Laravel-Mix over Webpack.",
+  "main": "lib/index.js",
+  "bin": {
+    "make-cli": "./bin/make-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuarhdz/make-cli.git"
+  },
+  "keywords": [
+    "make",
+    "cli",
+    "craftcms",
+    "webpack",
+    "laravel-mix"
+  ],
+  "author": "Anuar Reyes <anuar@heyblackmagic.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anuarhdz/make-cli/issues"
+  },
+  "homepage": "https://github.com/anuarhdz/make-cli#readme",
+  "dependencies": {
+    "cli-handle-unhandled": "^1.1.1",
+    "cli-welcome": "^2.2.2",
+    "@pawelgalazka/cli": "^2.0.3",
+    "@pawelgalazka/shell": "^2.0.0"
+  }
+}
